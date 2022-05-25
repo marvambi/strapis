@@ -9,7 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
   "dependencies": {
     "@strapi/plugin-documentation": "^4.1.11",
     "@strapi/plugin-graphql": "^4.1.11",
