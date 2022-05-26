@@ -34,4 +34,5 @@ yarn build
 
 ```
 
-RUN App with Dapr dapr run --app-id <app-name> --app-port 4500 node ./src/bin/www-prod
+# RUN App with Dapr 
+dapr run --app-id <app-name> --app-port 4500 yarn develop
