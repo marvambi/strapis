@@ -17,7 +17,7 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
                 confirmation_date: new Date()
             }
         })
-        return { message: `Confirmed by: , ${user.email}` }
+        return { message: `Confirmed by: ${user.email}` }
     },
 
     // customizing the create controller
