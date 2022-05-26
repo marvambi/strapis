@@ -26,7 +26,7 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
         const user = ctx.state.user
             // get request body data from context
         const { products } = ctx.request.body.data
-        console.log(products);
+        console.log("Creating order with: ", products);
         // use the create method from Strapi enitityService
         const order = await strapi.entityService.create("api::order.order", {
             data: {
