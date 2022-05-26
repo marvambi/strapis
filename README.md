@@ -32,7 +32,9 @@ npm run build
 
 yarn build
 
-```
 
 # RUN App with Dapr 
+
+```
+
 dapr run --app-id <app-name> --app-port 4500 yarn develop
