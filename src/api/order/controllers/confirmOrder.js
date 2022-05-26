@@ -13,7 +13,7 @@ module.exports = {
     //   }
     // }
 
-    confirmit: async(ctx, next) => {
+    confirm: async(ctx, next) => {
         ctx.body = "ok"
     },
 };
