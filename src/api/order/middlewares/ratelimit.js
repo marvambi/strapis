@@ -8,7 +8,7 @@ module.exports =
         const message = [{
             messages: [{
                 id: "Auth.form.error.ratelimit",
-                message: "Too many attempts, please try again in a minute.",
+                message: "Too many attempts, please try again in a minute or two.",
             }, ],
         }, ];
         return ratelimit.middleware(
